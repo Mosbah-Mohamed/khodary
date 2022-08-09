@@ -1,0 +1,24 @@
+/* ============================= Start main buttons component =============================== */
+.main-btn {
+  width: 161px;
+  height: 46px;
+  color: #21364a;
+  cursor: pointer;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  font-family: "Tajawal-Bold";
+  font-size: 18px;
+  border: none;
+  outline: none;
+  margin: 20px 0;
+  transition: 0.5s;
+
+  &:hover {
+    background-color: #21364a;
+    color: #fff;
+  }
+}
+/* ============================= end main buttons component =============================== */

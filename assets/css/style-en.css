@@ -1,0 +1,51 @@
+body {
+  text-align: left;
+  direction: ltr;
+}
+
+.side-bar {
+  left: -400px;
+}
+
+.side-bar.open {
+  right: auto !important;
+  left: 0;
+}
+
+.modal-header .close {
+  margin: 0;
+}
+
+.nice-select:after {
+  right: 12px !important;
+  left: auto;
+}
+
+.nice-select ul.list li {
+  text-align: left;
+}
+
+.upload label::after {
+  left: auto;
+  right: 23px;
+}
+
+input[type="date"] {
+  display: flex;
+  flex-direction: row;
+  text-align: start;
+}
+
+/* media */
+
+.why_change_qr .content form .upload label::after {
+  left: auto;
+  right: 55%;
+}
+
+@media (max-width: 575px) {
+  .why_change_qr .content form .upload label::after {
+    right: 22px;
+    left: auto;
+  }
+}

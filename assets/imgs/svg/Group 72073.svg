@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="171.856" height="171.856" viewBox="0 0 171.856 171.856">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.596" gradientTransform="translate(0)" gradientUnits="objectBoundingBox">
+      <stop offset="0.295" stop-color="#fff"/>
+      <stop offset="0.368" stop-color="#f8f8f8"/>
+      <stop offset="0.472" stop-color="#e6e6e6"/>
+      <stop offset="0.593" stop-color="#c7c7c7"/>
+      <stop offset="0.728" stop-color="#9d9d9d"/>
+      <stop offset="0.872" stop-color="#686868"/>
+      <stop offset="1" stop-color="#333"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.516" cy="1.154" r="0.725" gradientTransform="translate(0)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b3b3b3"/>
+      <stop offset="0.077" stop-color="#999"/>
+      <stop offset="0.237" stop-color="#6b6b6b"/>
+      <stop offset="0.398" stop-color="#444"/>
+      <stop offset="0.555" stop-color="#262626"/>
+      <stop offset="0.71" stop-color="#111"/>
+      <stop offset="0.86" stop-color="#040404"/>
+      <stop offset="1"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="0.321" cy="-0.528" r="1.763" gradientTransform="translate(0.101) scale(0.798 1)" xlink:href="#radial-gradient-2"/>
+    <radialGradient id="radial-gradient-4" cx="0.5" cy="0.255" r="1.47" gradientTransform="translate(0)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4d4d4d"/>
+      <stop offset="0.061" stop-color="#444"/>
+      <stop offset="0.306" stop-color="#262626"/>
+      <stop offset="0.547" stop-color="#111"/>
+      <stop offset="0.781" stop-color="#040404"/>
+      <stop offset="1"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_72073" data-name="Group 72073" transform="translate(-65.727 -63.187)">
+    <circle id="Ellipse_223" data-name="Ellipse 223" cx="85.928" cy="85.928" r="85.928" transform="translate(65.728 63.187)" fill="#00c568"/>
+    <circle id="Ellipse_224" data-name="Ellipse 224" cx="85.928" cy="85.928" r="85.928" transform="translate(65.728 63.187)" fill="url(#radial-gradient)" style="mix-blend-mode: color-burn;isolation: isolate"/>
+    <circle id="Ellipse_225" data-name="Ellipse 225" cx="85.928" cy="85.928" r="85.928" transform="translate(65.728 63.187)" fill="url(#radial-gradient-2)" style="mix-blend-mode: color-dodge;isolation: isolate"/>
+    <path id="Path_872" data-name="Path 872" d="M236.211,133.891A85.919,85.919,0,1,0,81.867,199.218C99.863,147.5,170.616,108.282,236.211,133.891Z" transform="translate(0 0)" fill="url(#radial-gradient-3)" style="mix-blend-mode: color-dodge;isolation: isolate"/>
+    <path id="Path_873" data-name="Path 873" d="M149.462,71.38A75.541,75.541,0,1,1,73.92,146.921,75.541,75.541,0,0,1,149.462,71.38m0-1.593A77.134,77.134,0,1,0,226.6,146.921a77.222,77.222,0,0,0-77.134-77.134Z" transform="translate(2.193 2.194)" fill="url(#radial-gradient-4)" style="mix-blend-mode: color-dodge;isolation: isolate"/>
+    <g id="Group_71781" data-name="Group 71781" transform="translate(90.384 100.951)" opacity="0.5" style="mix-blend-mode: multiply;isolation: isolate">
+      <path id="Path_874" data-name="Path 874" d="M124.024,184.508l-39.79-39.79L98.55,130.4l25.475,25.475L188.37,91.531l14.316,14.316Z" transform="translate(-84.234 -91.531)" fill="#00bd4b"/>
+    </g>
+    <g id="Group_71782" data-name="Group 71782" transform="translate(90.384 103.075)">
+      <path id="Path_875" data-name="Path 875" d="M124.024,186.1l-39.79-39.79L98.55,132l25.475,25.475L188.37,93.126l14.316,14.316Z" transform="translate(-84.234 -93.126)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

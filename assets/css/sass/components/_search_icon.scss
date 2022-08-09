@@ -1,0 +1,91 @@
+// ========================= start search icon =================
+
+.search_icon i {
+  // font-size: 30px;
+  // color: blue;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.search-overlay,
+.search-overlay2 {
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+  position: fixed;
+  width: 100vw;
+  height: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  background: rgba($color: $mainColor, $alpha: 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.search-overlay.show,
+.search-overlay2.show {
+  opacity: 1 !important;
+  visibility: visible !important;
+  height: 100vh;
+}
+
+.search-overlay form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-overlay input {
+  height: 62px;
+  color: #333;
+  outline: none;
+  font-size: 1.4em;
+  border: none;
+  width: 600px;
+  text-indent: 20px;
+}
+
+.search-overlay button {
+  display: inline-block;
+  width: 100px;
+  height: 65px;
+  margin-bottom: 17px;
+  background: blue;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.search-overlay .close {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.search-overlay .close:hover {
+  transform: rotate(360deg);
+}
+
+@media (max-width: 767px) {
+  .search-overlay input {
+    width: auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .search-overlay form {
+    flex-direction: column;
+  }
+}
+
+// ========================= end search icon =================
